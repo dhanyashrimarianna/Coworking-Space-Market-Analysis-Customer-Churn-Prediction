@@ -1,0 +1,44 @@
+[
+  {
+    "model": "majority_baseline",
+    "test_customers": 5000,
+    "test_churn_rate": 0.1956,
+    "roc_auc": 0.5,
+    "average_precision": 0.1956,
+    "accuracy": 0.8044,
+    "precision_at_0_5": 0.0,
+    "recall_at_0_5": 0.0,
+    "f1_at_0_5": 0.0,
+    "confusion_matrix": [
+      [
+        4022,
+        0
+      ],
+      [
+        978,
+        0
+      ]
+    ]
+  },
+  {
+    "model": "logistic_regression",
+    "test_customers": 5000,
+    "test_churn_rate": 0.1956,
+    "roc_auc": 0.6757267543846269,
+    "average_precision": 0.2872896820453034,
+    "accuracy": 0.8042,
+    "precision_at_0_5": 0.0,
+    "recall_at_0_5": 0.0,
+    "f1_at_0_5": 0.0,
+    "confusion_matrix": [
+      [
+        4021,
+        1
+      ],
+      [
+        978,
+        0
+      ]
+    ]
+  }
+]

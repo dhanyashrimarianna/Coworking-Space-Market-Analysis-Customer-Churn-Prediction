@@ -1,0 +1,58 @@
+{
+  "source_rows": {
+    "customers": 20000,
+    "companies": 5,
+    "survey": 4979,
+    "usage_monthly": 268744
+  },
+  "prepared_rows": {
+    "customers": 20000,
+    "companies": 5,
+    "survey": 4979,
+    "usage_monthly": 268743
+  },
+  "usage_quarantined": 1,
+  "surveys_after_exit": 470,
+  "team_size_over_100": 106,
+  "date_ranges": {
+    "customers": {
+      "Join_Date": [
+        "2018-01-01",
+        "2024-12-31"
+      ],
+      "Exit_Date": [
+        "2018-02-05",
+        "2025-08-01"
+      ]
+    },
+    "companies": {},
+    "survey": {
+      "Survey_Date": [
+        "2018-02-01",
+        "2027-01-11"
+      ]
+    },
+    "usage_monthly": {
+      "Month": [
+        "2018-01-01",
+        "2025-08-01"
+      ]
+    }
+  },
+  "source_sha256": {
+    "customers": "9512fed6a1a558fd9c6966c00117ea1fbfd20fef884a1cb0ba430ac8ca443123",
+    "companies": "89e53289c153b19909f29c3e48bcbaf313bf97a53443459b8341799e17770d27",
+    "survey": "6f2865b57f78e62b8a4042ce9813ddb12843135d213d146a4f84c52aa002cb8e",
+    "usage_monthly": "d33f4aef2037c854a3d7184cd7a7bfc0a5667ae4102cf553d56f389b59c7b64a"
+  },
+  "customer_count": 20000,
+  "churned_count": 3913,
+  "recorded_churn_share": 0.19565,
+  "versions": {
+    "python": "3.13.7",
+    "pandas": "2.3.2",
+    "numpy": "2.2.6",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.6"
+  }
+}

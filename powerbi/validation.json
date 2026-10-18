@@ -1,0 +1,9 @@
+{
+  "candidate_zip_crc": "passed",
+  "schema_json": "passed",
+  "parameterized_queries": 4,
+  "original_report_layout_preserved": true,
+  "desktop_open_refresh_render": "NOT VALIDATED",
+  "pbix_original": "unchanged; embedded data/model not rewritten",
+  "report_pages": 1
+}

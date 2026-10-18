@@ -1,0 +1,16 @@
+name: Validate analysis
+on: [push, pull_request]
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python -m unittest discover -s tests -v
+      - run: python analysis.py
+      - run: python repair_powerbi.py
+      - run: jupyter nbconvert --to notebook --execute "Co-working space jupyter.ipynb" --output executed.ipynb --ExecutePreprocessor.timeout=300
